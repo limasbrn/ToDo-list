@@ -1,48 +1,27 @@
-# vue-todo-list
+# To-do lista ActToday App
 
-This template should help get you started developing with Vue 3 in Vite.
+(em processo de desenvolvimento...)
 
-## Recommended IDE Setup
+## Informações gerais
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+ActToday é uma aplicação feita em Vue Js para fins de prática. A Aplicação é uma To-do list que possui uma página de formulário e uma página de tarefas que exibe as entradas submetidas via formulário. Na página de tarefas as tarefas ficam listadas por ordem de criação e cada tarefa possui um botão para excluir e um para editar a tarefa.
 
-## Customize configuration
+## Setup
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Para a visualização da aplicação é necessário:
 
-## Project Setup
+* Clonar o repositório usando o HTTP ou usando uma chave SSH;
+* Abrir o Git Bash;
+* Abrir o diretório onde deseja ter o repositório que clonou;
+* E utilizando o comando $ git clone colar o URL que foi copiado;
 
-```sh
-npm install
+```
+$ git clone https://github.com/limasbrn/ToDo-list.git
+```
+E logo em seguida fazer as devidas instalações e rodar o projeto no navegador:
+```
+$ npm install
+$ npm run dev 
 ```
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run build
-npm run test:e2e # or `npm run test:e2e:ci` for headless testing
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```

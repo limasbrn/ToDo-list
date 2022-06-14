@@ -22,7 +22,8 @@ export default {
         remove(task, index) {
             this.taskSelected = task;
             this.taskSelected.index = index;
-            this.$refs.modalRemove.show();
+            this.tasks.splice(this.taskSelected.index, 1);
+            localStorage.setItem("tasks", JSON.stringify(this.tasks));
         }
     }
 }
