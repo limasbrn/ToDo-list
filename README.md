@@ -1,6 +1,5 @@
 # To-do lista ActToday App
 
-(em processo de desenvolvimento...)
 
 ## Informações gerais
 
