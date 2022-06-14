@@ -67,9 +67,9 @@ export default {
     margin: 30px auto 0px auto;
 
     background-color: #fafafa;
-    border: 1px solid #dadada6b;
+    border: 1px solid #dadadaa2;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px 3px #dadada2d;
+    box-shadow: 3px 3px 3px 3px #dadada44;
 }
 
 .title_tarefa {
@@ -91,11 +91,17 @@ export default {
 }
 
 .btn_edi {
-    background-color: grey;
+   background-color: #3E994C;
+}
+.btn_edi:hover {
+    background-color: #316639;
 }
 
 .btn_exc {
-    background-color: rgb(150, 4, 4);
+    background-color: #FF891D;
     margin-left: 15px;
+}
+.btn_exc:hover {
+    background-color: #df6c00;
 }
 </style>

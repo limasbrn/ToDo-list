@@ -6,8 +6,9 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <nav class="navbar">
     <div class="nav_content_wrap">
-      <div class="logo_nav">Aqui vai a logo</div>
+      <div class="logo_nav"><img alt="logo" src="../assets/logo.svg"></div>
       <div class="wrapper_nav_link">
+
         <RouterLink style="text-decoration: none; color: inherit;" to="/"><span class="nav_link">Tarefas</span></RouterLink>
         <RouterLink style="text-decoration: none; color: inherit;" to="/formularios"><span class="nav_link">Formulário</span></RouterLink>
       </div>
@@ -31,12 +32,22 @@ import { RouterLink, RouterView } from 'vue-router'
 .nav_content_wrap{
   display: flex;
   width:80%;
+  height:100%;
   justify-content: space-between;
+   align-items: center;
+}
+.wrapper_nav_link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo_nav{
-  border: red 1px solid;
+  display: flex;
+  height:30px;
+  width: auto;
 }
 .nav_link{
+  height:100%;
   margin-left:30px;
   font-weight: bolder;
   color: #7a7a7a;
