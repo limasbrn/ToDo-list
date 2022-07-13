@@ -1,4 +1,4 @@
-# To-do lista ActToday App
+# To-do list ActToday App
 
 
 ## Informações gerais
